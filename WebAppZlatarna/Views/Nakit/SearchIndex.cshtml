@@ -6,7 +6,7 @@
     @using (Html.BeginForm("SearchIndex", "Nakit", FormMethod.Get))
     {
     <p>
-        Žanr: @Html.DropDownList("nakitKategorija", "Sve kategorije")
+        Kategorija: @Html.DropDownList("nakitKategorija", "Sve kategorije")
         Naziv: @Html.TextBox("searchString")
 
         <input type="submit" value="Traži" class="btn btn-info" />
